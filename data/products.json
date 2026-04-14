@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Áo Hoodie Essentials Oversized - Black",
+        "price": 85,
+        "description": "Chiếc hoodie biểu tượng từ Fear of God Essentials. Chất liệu nỉ bông cao cấp, form dáng oversized hiện đại, phù hợp cho mọi phong cách đường phố.",
+        "category": "Nam",
+        "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 2,
+        "title": "Váy Lụa Satin Cao Cấp - Champagne",
+        "price": 120,
+        "description": "Thiết kế thanh lịch với chất liệu lụa satin mềm mại, tôn dáng. Phù hợp cho những buổi tiệc tối hoặc sự kiện quan trọng.",
+        "category": "Nữ",
+        "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 3,
+        "title": "Giày Nike Air Jordan 1 Low 'Panda'",
+        "price": 150,
+        "description": "Phối màu đen trắng kinh điển không bao giờ lỗi mốt. Chất liệu da cao cấp, đế Air êm ái cho cả ngày dài vận động.",
+        "category": "Phụ Kiện",
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 4,
+        "title": "Áo Khoác Blazer Hàn Quốc - Beige",
+        "price": 95,
+        "description": "Form dáng chuẩn chỉnh, đứng form. Phù hợp cho dân văn phòng hoặc phối đồ dạo phố cực sang chảnh.",
+        "category": "Nữ",
+        "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 5,
+        "title": "Quần Jean Baggy Denim - Light Blue",
+        "price": 45,
+        "description": "Chất denim dày dặn, không co giãn, giữ form tốt. Thiết kế baggy thoải mái, dễ dàng phối hợp với áo thun hoặc croptop.",
+        "category": "Nam",
+        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 6,
+        "title": "Túi Xách Da Thật Minimalist",
+        "price": 180,
+        "description": "Thiết kế tối giản, tinh tế. Làm từ da bò thật 100%, bền bỉ theo thời gian. Ngăn chứa rộng rãi, tiện dụng.",
+        "category": "Phụ Kiện",
+        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 7,
+        "title": "Áo Polo Knit Retro - Navy",
+        "price": 55,
+        "description": "Chất liệu len dệt kim mỏng nhẹ, thoáng mát. Mang phong cách cổ điển nhưng không kém phần năng động.",
+        "category": "Nam",
+        "image": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 8,
+        "title": "Chân Váy Xếp Ly Denim",
+        "price": 35,
+        "description": "Xu hướng Y2K đang trở lại mạnh mẽ. Chân váy xếp ly denim mang đến vẻ ngoài cá tính và trẻ trung cho các bạn nữ.",
+        "category": "Nữ",
+        "image": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 9,
+        "title": "Kính Mát Phi Hành Gia - Silver",
+        "price": 30,
+        "description": "Chống tia UV 400 bảo vệ mắt tuyệt đối. Gọng kim loại siêu nhẹ, thiết kế thời thượng phù hợp nhiều khuôn mặt.",
+        "category": "Phụ Kiện",
+        "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 10,
+        "title": "Áo Thun Graphic 'Street Vibes'",
+        "price": 25,
+        "description": "100% Cotton 2 chiều, định lượng 250gsm. Hình in lụa sắc nét, không bong tróc khi giặt máy.",
+        "category": "Nam",
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 11,
+        "title": "Đầm Hoa Nhí Vintage",
+        "price": 65,
+        "description": "Vẻ đẹp vượt thời gian. Họa tiết hoa tinh tế, chất vải voan bay bổng, tạo cảm giác nhẹ nhàng, nữ tính.",
+        "category": "Nữ",
+        "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 12,
+        "title": "Thắt Lưng Da Khóa Đồng",
+        "price": 40,
+        "description": "Phụ kiện không thể thiếu để hoàn thiện set đồ. Khóa đồng đúc nguyên khối, dây da bò sáp càng dùng càng đẹp.",
+        "category": "Phụ Kiện",
+        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+    }
+]

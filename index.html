@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDU FashionStore | Trang Chủ</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" type="image/png">
+    <meta
+      name="description"
+      content="GDU FashionStore - Nâng tầm phong cách với những bộ sưu tập thời trang dẫn đầu xu hướng."
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="glass">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <span class="logo-text">GDU</span>
+          <span class="logo-sub">FashionStore</span>
+        </a>
+
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html" class="active">Trang Chủ</a></li>
+            <li><a href="products.html">Sản Phẩm</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+            <li><a href="login.html">Đăng Nhập</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm..." />
+            <i class="fas fa-search"></i>
+          </div>
+          <a href="cart.html" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </a>
+          <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text animate-fade">
+            <span class="badge">BỘ SƯU TẬP XUÂN HÈ 2026</span>
+            <h1>Định Hình Phong Cách <br /><span>Khẳng Định Bản Thân</span></h1>
+            <p>
+              Khám phá phong cách thời trang dẫn đầu xu hướng từ những nhà thiết
+              kế hàng đầu. Đẳng cấp và khác biệt.
+            </p>
+            <div class="hero-btns">
+              <a href="products.html" class="btn-primary">Khám Phá Ngay</a>
+              <a href="#latest" class="btn-secondary">Bộ Sưu Tập</a>
+            </div>
+          </div>
+          <div class="hero-image animate-fade">
+            <div class="glow-sphere"></div>
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+              alt="Fashion Hero"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Section -->
+      <section id="latest" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Bộ Sưu Tập Mới</h2>
+            <p class="section-subtitle">
+              Những thiết kế mới nhất vừa cập bến FashionStore
+            </p>
+          </div>
+
+          <div class="product-grid" id="featured-products">
+            <!-- Products will be loaded here via JS -->
+            <div class="loader">
+              <div class="spinner"></div>
+            </div>
+          </div>
+
+          <div class="view-all">
+            <a href="products.html" class="btn-outline"
+              >Xem Tất Cả <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <a href="index.html" class="logo">
+            <span class="logo-text">GDU</span>
+            <span class="logo-sub">FashionStore</span>
+          </a>
+          <p>
+            Nơi phong cách hội tụ, mang đến những giá trị thời trang đích thực
+            cho sinh viên GDU.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Liên Kết</h3>
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="products.html">Sản Phẩm</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+            <li><a href="cart.html">Giỏ Hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Liên Hệ</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Quang Trung, Gò Vấp,
+              TP.HCM
+            </li>
+            <li><i class="fas fa-phone"></i> 0379417870</li>
+            <li><i class="fas fa-envelope"></i> Vinhthang21112006@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4030.914873327572!2d106.65290437516886!3d10.837191989315269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a11d54ecd1%3A0xc5d76300d022c89e!2zUXVhbmcgVHJ1bmcsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1776073583802!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GDU FashionStore. Built for Style.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/home.js"></script>
+  </body>
+</html>

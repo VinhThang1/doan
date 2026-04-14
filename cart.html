@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng | GDU FashionStore</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" type="image/png">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cart.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="glass">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">GDU</span>
+                <span class="logo-sub">FashionStore</span>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="products.html">Sản Phẩm</a></li>
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li><a href="login.html">Đăng Nhập</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button class="mobile-menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="cart-page">
+        <div class="container">
+            <h1 class="section-title">Giỏ Hàng Của Bạn</h1>
+
+            <div class="cart-container" id="cart-content">
+                <!-- Cart items and summary will be rendered here -->
+                <div class="loader">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <a href="index.html" class="logo">
+            <span class="logo-text">GDU</span>
+            <span class="logo-sub">FashionStore</span>
+          </a>
+          <p>
+            Nơi phong cách hội tụ, mang đến những giá trị thời trang đích thực
+            cho sinh viên GDU.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Liên Kết</h3>
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="products.html">Sản Phẩm</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+            <li><a href="cart.html">Giỏ Hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Liên Hệ</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Quang Trung, Gò Vấp,
+              TP.HCM
+            </li>
+            <li><i class="fas fa-phone"></i> 0379417870</li>
+            <li><i class="fas fa-envelope"></i> Vinhthang21112006@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4030.914873327572!2d106.65290437516886!3d10.837191989315269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a11d54ecd1%3A0xc5d76300d022c89e!2zUXVhbmcgVHJ1bmcsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1776073583802!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GDU FashionStore. Built for Style.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/cart_page.js"></script>
+</body>
+</html>

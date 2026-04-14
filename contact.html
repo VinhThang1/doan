@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên Hệ | GDU FashionStore</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" type="image/png">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="glass">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <span class="logo-text">GDU</span>
+          <span class="logo-sub">FashionStore</span>
+        </a>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="products.html">Sản Phẩm</a></li>
+            <li><a href="contact.html" class="active">Liên Hệ</a></li>
+            <li><a href="login.html">Đăng Nhập</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <a href="cart.html" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </a>
+          <button class="mobile-menu-btn">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact-page">
+      <section class="page-banner">
+        <div class="container">
+          <h1>Liên Hệ Với Chúng Tôi</h1>
+          <p>Chúng tôi luôn lắng nghe ý kiến từ bạn</p>
+        </div>
+      </section>
+
+      <section class="container contact-container">
+        <div class="contact-info-grid">
+          <div class="contact-card glass animate-fade">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Địa Chỉ</h3>
+            <p>Quang Trung, Phường 4, Gò Vấp, TP.HCM</p>
+          </div>
+          <div class="contact-card glass animate-fade">
+            <i class="fas fa-phone"></i>
+            <h3>Điện Thoại</h3>
+            <p>0379417870</p>
+          </div>
+          <div class="contact-card glass animate-fade">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>Vinhthang21112006@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper glass animate-fade">
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullname">Họ và Tên*</label>
+                <input type="text" id="fullname" placeholder="Nhập họ tên..." />
+                <span class="error-msg" id="err-fullname"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                />
+                <span class="error-msg" id="err-email"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Số Điện Thoại*</label>
+                <input type="text" id="phone" placeholder="vần là số..." />
+                <span class="error-msg" id="err-phone"></span>
+              </div>
+              <div class="form-group">
+                <label for="subject">Chủ Đề</label>
+                <input
+                  type="text"
+                  id="subject"
+                  placeholder="Bạn cần hỗ trợ gì?"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Nội Dung*</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Nhập nội dung tin nhắn..."
+              ></textarea>
+              <span class="error-msg" id="err-message"></span>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn-primary">
+                Gửi Tin Nhắn <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+
+          <div
+            id="success-banner"
+            class="success-banner glass"
+            style="display: none"
+          >
+            <i class="fas fa-check-circle"></i>
+            <h3>Gửi thành công!</h3>
+            <p>
+              Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi trong thời gian sớm
+              nhất.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <a href="index.html" class="logo">
+            <span class="logo-text">GDU</span>
+            <span class="logo-sub">FashionStore</span>
+          </a>
+          <p>
+            Nơi phong cách hội tụ, mang đến những giá trị thời trang đích thực
+            cho sinh viên GDU.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Liên Kết</h3>
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="products.html">Sản Phẩm</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+            <li><a href="cart.html">Giỏ Hàng</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Liên Hệ</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Quang Trung, Gò Vấp,
+              TP.HCM
+            </li>
+            <li><i class="fas fa-phone"></i> 0379417870</li>
+            <li><i class="fas fa-envelope"></i> Vinhthang21112006@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4030.914873327572!2d106.65290437516886!3d10.837191989315269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a11d54ecd1%3A0xc5d76300d022c89e!2zUXVhbmcgVHJ1bmcsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1776073583802!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GDU FashionStore. Built for Style.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/contact.js"></script>
+  </body>
+</html>

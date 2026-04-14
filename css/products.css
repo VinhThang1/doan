@@ -1,0 +1,220 @@
+.products-page {
+    padding-top: var(--header-height);
+}
+
+.page-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-banner h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.catalog-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 80px;
+}
+
+/* Filters Sidebar */
+.filters {
+    padding: 24px;
+    position: sticky;
+    top: 100px;
+    background: #ffffff;
+    box-shadow: var(--shadow-sm);
+}
+
+.filter-group {
+    margin-bottom: 30px;
+}
+
+.filter-group h3 {
+    font-size: 1rem;
+    margin-bottom: 16px;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.search-input i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+#category-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+#category-list li:hover {
+    background: var(--glass-bg);
+    color: var(--text-main);
+}
+
+#category-list li.active {
+    background: var(--primary);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.price-range {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-range input {
+    width: 100%;
+}
+
+/* Catalog Main */
+.catalog-toolbar {
+    padding: 15px 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: var(--shadow-sm);
+}
+
+.results-count {
+    color: var(--text-muted);
+}
+
+#count-value {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.view-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.view-btn {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-sm);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-btn:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.view-btn.active {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+#sort-select {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+}
+
+/* List View Overrides */
+.product-grid.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-grid.list-view .product-card {
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    padding: 15px;
+}
+
+.product-grid.list-view .product-img {
+    width: 180px;
+    height: 150px;
+    margin-bottom: 0;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.product-grid.list-view .product-info h3 {
+    height: auto;
+    font-size: 1.3rem;
+}
+
+.product-grid.list-view .product-actions {
+    margin-left: auto;
+    width: 200px;
+}
+
+/* Responsive Products */
+@media (max-width: 1024px) {
+    .catalog-container {
+        grid-template-columns: 1fr;
+    }
+    .filters {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .filter-group {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .filters {
+        grid-template-columns: 1fr;
+    }
+    .catalog-toolbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .product-grid.list-view .product-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .product-grid.list-view .product-img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .product-grid.list-view .product-actions {
+        margin-left: 0;
+        width: 100%;
+    }
+}
